@@ -1,0 +1,147 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\project_blockchain\\test\\demo_blockchain\\contracts\\custom\\ballot.sol": {
+      "lastModificationDate": 1662707391020,
+      "contentHash": "c4880657d4639d38c8eaa5815aa0aadc",
+      "sourceName": "contracts/custom/ballot.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.7"
+      ],
+      "artifacts": [
+        "Ballot"
+      ]
+    },
+    "D:\\project_blockchain\\test\\demo_blockchain\\contracts\\example\\Donation.sol": {
+      "lastModificationDate": 1662614294306,
+      "contentHash": "e14d93e73f25e5e32a380f0386ef2f90",
+      "sourceName": "contracts/example/Donation.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.8.7"
+      ],
+      "artifacts": [
+        "Donation"
+      ]
+    },
+    "D:\\project_blockchain\\test\\demo_blockchain\\contracts\\example\\vote.sol": {
+      "lastModificationDate": 1662702595019,
+      "contentHash": "093e6581e33018d846cc6678822f37f0",
+      "sourceName": "contracts/example/vote.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.8.7"
+      ],
+      "artifacts": [
+        "Vote"
+      ]
+    },
+    "D:\\project_blockchain\\test\\demo_blockchain\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1662701991179,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}
