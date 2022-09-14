@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>items</key>
+        <array>
+                <dict>
+                        <key>assets</key>
+                        <array>
+                                <dict>
+                                        <key>kind</key>
+                                        <string>software-package</string>
+                                        <key>url</key>
+                                        <!-- [必须] [.ipa包下载地址] 注意: 一定要https -->
+                                        <string>https://wps.catarc.ac.cn/minio/wpsimage/yun_packages_2021-09-27_Ys5hyFR7SWrtnWma7hdk3MGxx7E4AVZ7uuKfLveevLSb?response-content-disposition=attachment%3Bfilename%2A%3Dutf-8%27%27wpsoffice_pro_v9.9.1_20210406154255-resigned.ipa</string>
+                                </dict>
+                        </array>
+                        <key>metadata</key>
+                        <dict>
+                                <key>bundle-identifier</key>
+                                <!-- [BundleID] -->
+                                <string>portaldev.catarc.ac.cn</string>
+                                <key>bundle-version</key>
+                                <string>9.9.1</string>
+                                <key>kind</key>
+                                <string>software</string>
+                                <key>title</key>
+                                <string>WPSOffice</string>
+                                <key>subtitle</key>
+                                <string>WPSOffice</string>
+                        </dict>
+                </dict>
+        </array>
+</dict>
+</plist>
